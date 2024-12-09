@@ -1,4 +1,4 @@
-// When number of parameters are not known in prior, we user rest-operator "..." that 
+// When number of parameters are not known in prior, we user rest-operator "..." that
 // bundles all the values into a single array. It is the opposite of spread operator "..."
 // We can then loop through the array to add all the elements of the array
 function calculateCartPrice(...num1) {
@@ -36,4 +36,4 @@ function returnSecondElement(getArray) {
 }
 
 console.log(returnSecondElement(myNewArray));
-console.log(returnSecondElement([200, 400, 500, 600]));
+console.log(returnSecondElement([200, 700, 500, 600]));
