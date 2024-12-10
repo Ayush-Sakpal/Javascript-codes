@@ -18,3 +18,4 @@ one();
 
 // Inner block can access variables of the outer block
 // Outer block CANNOT access variables of the inner block
+// The above is known as Closure(Closure is far more than this!)
